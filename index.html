@@ -15,8 +15,8 @@
   <section id="header">
     <nav>
       <h1>Carlson Dultra</h1>
-      <div class="nav-bar">
-        <i class="fa fa-times"></i>
+      <div class="nav-bar" id="navBar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
           <li><a href="#">HOME</a></li>
           <li><a href="#">ABOUT</a></li>
@@ -24,7 +24,7 @@
           <li><a href="#">CONTACT</a></li>
         </ul>
       </div>
-      <i class="fa fa-bars"></i>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
     <div class="text-box">
       <h1>Carlson Dultra</h1>
@@ -33,5 +33,19 @@
     </div>
   </section>
   <!-- End Header -->
+
+  <!-- JavaScript For Menu-->
+<script>
+  var navBar = document.getElementById("navBar");
+
+  function showMenu(){
+    navBar.style.right="0";
+  }
+
+  function hideMenu(){
+    navBar.style.right="-200px";
+  }
+</script>
+
 </body>
 </html>
