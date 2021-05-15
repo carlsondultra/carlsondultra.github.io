@@ -202,6 +202,7 @@ h3{
 
 .contact-col img{
     width: 100%;
+    display: block;
 }
 
 .layer{
@@ -216,4 +217,55 @@ h3{
 
 .layer:hover{
     background: rgba(0, 226, 207, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1; 
+}
+
+
+
+/* My Projects */
+
+.projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.projects-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left; 
+}
+
+.projects-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projects-col p{
+    padding: 0;
+}
+
+.projects-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
 }
