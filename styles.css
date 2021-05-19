@@ -333,3 +333,13 @@ sub-header h1{
 .about-col2 p{
     padding: 15px 0 25px;
 }
+
+.about-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.about-btn:hover{
+    color: #fff;
+}
