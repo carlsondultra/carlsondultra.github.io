@@ -1,0 +1,65 @@
+:root {
+    --red: #B22222;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--red);
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    background-color: #CCC;
+}
+
+h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stacking the elements on top of eachother instead of beside */
+}
+
+#gameboard {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red);
+    font-size: 100px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--red);
+    color: white;
+    border-color: var(--red);
+    font-size: 18px;
+    transition: 100ms transform;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
