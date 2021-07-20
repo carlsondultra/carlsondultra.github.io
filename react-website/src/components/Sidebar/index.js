@@ -1,10 +1,32 @@
-import React from 'react'
+import React from 'react';
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
 const Sidebar = () => {
     return (
-        <div>
-            
-        </div>
+        <SidebarContainer>
+            <Icon>
+                <CloseIcon />
+            </Icon>
+            <SidebarWrapper>
+                <SidebarMenu>
+                    <SidebarLink to="home">
+                        Home
+                    </SidebarLink>
+                    <SidebarLink to="about">
+                        About
+                    </SidebarLink>
+                    <SidebarLink to="portfolio">
+                        Portfolio
+                    </SidebarLink>
+                    <SidebarLink to="contact">
+                        Contact
+                    </SidebarLink>
+                </SidebarMenu>
+                <SideBtnWrap>
+                    <SidebarRoute to="/signin"> Sign In</SidebarRoute>
+                </SideBtnWrap>
+            </SidebarWrapper>
+        </SidebarContainer>
     )
 }
 
