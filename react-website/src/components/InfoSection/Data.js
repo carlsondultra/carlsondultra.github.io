@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'smallest test text',
     buttonLabel: 'Inside Button',
     imgStart: false, /*changing which side image is on, left or right*/
-    img: require('../../images/svg1.svg'),
+    img: require('../../images/svg1.svg').default,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -25,7 +25,7 @@ export const homeObjTwo = {
     description: 'smallest test text',
     buttonLabel: 'my Portfolio',
     imgStart: true, /*changing which side image is on, left or right*/
-    img: require('../../images/svg1.svg'),
+    img: require('../../images/svg1.svg').default,
     alt: 'Car',
     dark: false,
     primary: false,
@@ -42,7 +42,7 @@ export const homeObjThree = {
     description: 'smallest test text',
     buttonLabel: 'Contact Me',
     imgStart: false, /*changing which side image is on, left or right*/
-    img: require('../../images/svg1.svg'),
+    img: require('../../images/svg1.svg').default,
     alt: 'Car',
     dark: false,
     primary: false,
