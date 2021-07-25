@@ -43,9 +43,6 @@ const Navbar = ({toggle}) => {
                             <NavLinks to='contact' smooth={true} duration={500} spy={true} exact='true' offset={-80} >Contact </NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavBtn>
-                        <NavBtnLink to='/signin'>Contact Me</NavBtnLink>
-                    </NavBtn>
                 </NavbarContainer>
             </Nav>
             </IconContext.Provider>
