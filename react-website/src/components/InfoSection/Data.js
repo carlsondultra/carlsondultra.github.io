@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'I graduated Ryerson University in 2021, with a Bachelors degree in Computer Science.',
     buttonLabel: 'Inside Button',
     imgStart: false, /*changing which side image is on, left or right*/
-    img: require('../../images/about.svg').default,
+    img: require('../../images/svg1.svg').default,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -39,7 +39,11 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'Contact me',
     headLine: 'Talk to me!',
-    description: 'Linkedin' +  '\n' + ' Hello',
+    description: <div>
+        <a href="https://www.linkedin.com/in/carlsondultra/">LinkedIn</a> <br></br>
+        <a href="https://github.com/carlsondultra">Github</a> <br></br>
+        <a href="mailto:carlson.dultra@ryerson.ca">Email</a> 
+        </div>,
     buttonLabel: 'Contact Me',
     imgStart: false, /*changing which side image is on, left or right*/
     img: require('../../images/email.svg').default,
