@@ -8,21 +8,21 @@ const Card = () => {
     return (
         <>
             <CardContainer id="Card">
-                <CardH1>Put Something Here Card</CardH1>
+                <CardH1>My Projects</CardH1>
                 <CardWrapper>
                     <CardCard>
                         <CardIcon src={Icon1}/>
-                        <CardH2>Project 1</CardH2>
+                        <CardH2>Snake Game</CardH2>
                         <CardP>Text Text</CardP>
                     </CardCard>
                     <CardCard>
                         <CardIcon src={Icon2}/>
-                        <CardH2>Project 2 </CardH2>
+                        <CardH2>Tic Tac Toe </CardH2>
                         <CardP>Text Text</CardP>
                     </CardCard>
                     <CardCard>
                         <CardIcon src={Icon3}/>
-                        <CardH2>Project 3</CardH2>
+                        <CardH2>Matching Game</CardH2>
                         <CardP>Text Text</CardP>
                     </CardCard>
                 </CardWrapper>

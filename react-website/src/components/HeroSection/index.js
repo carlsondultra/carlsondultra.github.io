@@ -16,12 +16,15 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> 
             </HeroBg>
             <HeroContent>
-                <HeroH1>Carlson Dultra</HeroH1>
-                <HeroP>Bottom Text</HeroP>
+                <HeroH1>Welcome to my website!</HeroH1>
+               {/* <HeroH>Welcome to my website!</HeroP>*/}
+                
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'> Button {hover ? <ArrowForward /> : <ArrowRight />}
+                    <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'
+                    smooth={true} duration={500} spy={true} exact='true' offset={-80}> About {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
+                
             </HeroContent>
         </HeroContainer>
     );
