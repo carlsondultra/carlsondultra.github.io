@@ -16,19 +16,22 @@ const Card = () => {
                         <CardIcon src={Icon4}/>
                         <CardH2>Snake Game</CardH2>
                         <CardP>A simple snake game created using HTML and JavaScript.<br></br><br></br><a href="https://github.com/carlsondultra/Snake">Source Code</a> <br></br>
-                        <a href="https://carlsondultra.github.io/Snake/index.html"> Click here to play!</a> </CardP>
+                        {/*a href="https://carlsondultra.github.io/Snake/index.html"> Click here to play!</a>*/} </CardP>
                     </CardCard>
                     <CardCard>
                         <CardIcon src={Icon5}/>
                         <CardH2>Tic Tac Toe </CardH2>
                         <CardP>A simple tic-tac-toe game created using HTML, CSS, and JavaScript.
                         <br></br><br></br><a href="https://github.com/carlsondultra/Tic-Tac-Toe">Source Code</a> <br></br>
-                        <a href="https://carlsondultra.github.io/TicTacToe/index.html"> Click here to play!</a> </CardP>
+                        {/*<a href="https://carlsondultra.github.io/TicTacToe/index.html"> Click here to play!</a>*/} </CardP>
                     </CardCard>
                     <CardCard>
                         <CardIcon src={Icon3}/>
                         <CardH2>Matching Game</CardH2>
-                        <CardP>Text Text</CardP>
+                        <CardP>A simple matching game created using HTML, CSS, and JavaScript.
+                        <br></br><br></br><a href="https://github.com/carlsondultra/Memory">Source Code</a> <br></br>
+                        </CardP>
+                        
                     </CardCard>
                 </CardWrapper>
             </CardContainer>
