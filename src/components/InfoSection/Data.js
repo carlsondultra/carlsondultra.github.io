@@ -7,7 +7,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Me',
     headLine: 'My name is Carlson Dultra.',
-    description: 'I graduated Ryerson University in 2021, with a Bachelors degree in Computer Science.',
+    description: 'I graduated Ryerson University in 2021, with a Bachelors degree in Computer Science. I love programming and love listening to music.',
     buttonLabel: 'Inside Button',
     imgStart: false, /*changing which side image is on, left or right*/
     img: require('../../images/about.svg').default,
