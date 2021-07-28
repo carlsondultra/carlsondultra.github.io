@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-website/static/css/main.953c1c39.chunk.css",
-    "main.js": "/react-website/static/js/main.fccf2667.chunk.js",
-    "main.js.map": "/react-website/static/js/main.fccf2667.chunk.js.map",
-    "runtime-main.js": "/react-website/static/js/runtime-main.0b244325.js",
-    "runtime-main.js.map": "/react-website/static/js/runtime-main.0b244325.js.map",
-    "static/js/2.0a0ff665.chunk.js": "/react-website/static/js/2.0a0ff665.chunk.js",
-    "static/js/2.0a0ff665.chunk.js.map": "/react-website/static/js/2.0a0ff665.chunk.js.map",
-    "index.html": "/react-website/index.html",
-    "static/css/main.953c1c39.chunk.css.map": "/react-website/static/css/main.953c1c39.chunk.css.map",
-    "static/js/2.0a0ff665.chunk.js.LICENSE.txt": "/react-website/static/js/2.0a0ff665.chunk.js.LICENSE.txt",
-    "static/media/about.svg": "/react-website/static/media/about.0287331e.svg",
-    "static/media/email.svg": "/react-website/static/media/email.0de2811f.svg",
-    "static/media/snake.23f101dc.PNG": "/react-website/static/media/snake.23f101dc.PNG",
-    "static/media/svg1.svg": "/react-website/static/media/svg1.a4ef9b2c.svg",
-    "static/media/video.c79dbe8a.mp4": "/react-website/static/media/video.c79dbe8a.mp4"
+    "main.css": "/static/css/main.953c1c39.chunk.css",
+    "main.js": "/static/js/main.6bc54557.chunk.js",
+    "main.js.map": "/static/js/main.6bc54557.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec787b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec787b5f.js.map",
+    "static/js/2.d5e82eab.chunk.js": "/static/js/2.d5e82eab.chunk.js",
+    "static/js/2.d5e82eab.chunk.js.map": "/static/js/2.d5e82eab.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.953c1c39.chunk.css.map": "/static/css/main.953c1c39.chunk.css.map",
+    "static/js/2.d5e82eab.chunk.js.LICENSE.txt": "/static/js/2.d5e82eab.chunk.js.LICENSE.txt",
+    "static/media/about.svg": "/static/media/about.0287331e.svg",
+    "static/media/email.svg": "/static/media/email.0de2811f.svg",
+    "static/media/snake.23f101dc.PNG": "/static/media/snake.23f101dc.PNG",
+    "static/media/svg1.svg": "/static/media/svg1.a4ef9b2c.svg",
+    "static/media/video.c79dbe8a.mp4": "/static/media/video.c79dbe8a.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b244325.js",
-    "static/js/2.0a0ff665.chunk.js",
+    "static/js/runtime-main.ec787b5f.js",
+    "static/js/2.d5e82eab.chunk.js",
     "static/css/main.953c1c39.chunk.css",
-    "static/js/main.fccf2667.chunk.js"
+    "static/js/main.6bc54557.chunk.js"
   ]
 }
