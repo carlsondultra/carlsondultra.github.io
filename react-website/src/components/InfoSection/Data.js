@@ -1,3 +1,5 @@
+import { Button } from '../ButtonElements';
+
 export const homeObjOne = {
     id: 'about', /*about section*/
     lightBg: false, 
@@ -8,7 +10,7 @@ export const homeObjOne = {
     description: 'I graduated Ryerson University in 2021, with a Bachelors degree in Computer Science.',
     buttonLabel: 'Inside Button',
     imgStart: false, /*changing which side image is on, left or right*/
-    img: require('../../images/svg1.svg').default,
+    img: require('../../images/about.svg').default,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -22,7 +24,13 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'My Portfolio',
     headLine: 'Projects',
-    description: 'Click the button below to see my completed projects.',
+    description: <div> Throughout my career, i've completed various projects. <br></br><br></br>
+    <Button to='Card' smooth={true}
+    duration={500}
+    spy={true}
+    exact="true"
+    offset={-80}>Click here to see my completed projects.</Button> 
+    </div>,
     buttonLabel: 'My Projects',
     imgStart: true, /*changing which side image is on, left or right*/
     img: require('../../images/svg1.svg').default,
