@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
 import SigninPage from './pages/signin';
 /*import Navbar from './components/Navbar';*/
 
