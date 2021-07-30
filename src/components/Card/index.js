@@ -31,6 +31,13 @@ const Card = () => {
                         <CardP>A simple matching game created using HTML, CSS, and JavaScript.
                         <br></br><br></br><a href="https://github.com/carlsondultra/Memory">Source Code</a> <br></br>
                         </CardP>
+                    </CardCard>
+                    <CardCard>
+                        <CardIcon src={Icon3}/>
+                        <CardH2>Portfolio Website</CardH2>
+                        <CardP>This portfolio website is created using React.js, HTML, and CSS.
+                        <br></br><br></br><a href="https://github.com/carlsondultra/carlsondultra.github.io">Source Code</a> <br></br>
+                        </CardP>
                         
                     </CardCard>
                 </CardWrapper>
